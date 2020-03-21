@@ -11,6 +11,8 @@ function runAlgorithm(algorithm, input) {
     sortingFunction(input);
     const duration = process.hrtime(startTime);
 
+    console.log("This is a change");
+
     return duration;
 }
 
